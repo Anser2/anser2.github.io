@@ -5,66 +5,39 @@ AOS.init();
 const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
-    title: "Data Science",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/browse/data-science",
+    title: "Neural Networks and Deep Learning",
+    cardImage: "assets/images/education-page/nndl.png",
+    moocLink: "https://www.coursera.org/learn/neural-networks-deep-learning?specialization=deep-learning",
   },
   {
-    title: "Cryptography",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/cryptography-for-beginners/",
+    title: "Structuring Machine Learning Projects",
+    cardImage: "assets/images/education-page/nndl.png",
+    moocLink: "https://www.coursera.org/learn/machine-learning-projects?specialization=deep-learning",
   },
   {
-    title: "Machine Learning",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/learn/machine-learning",
+    title: "Convolutions Neural Networks",
+    cardImage: "assets/images/education-page/cnn.png",
+    moocLink: "https://www.coursera.org/learn/convolutional-neural-networks?specialization=deep-learning",
   },
   {
-    title: "Introduction to HTML 5",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
+    title: "Sequence Models",
+    cardImage: "assets/images/education-page/rnn.png",
+    moocLink: "https://www.coursera.org/learn/nlp-sequence-models?specialization=deep-learning",
   },
   {
-    title: "Introduction to CSS 3",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
+    title: "Meta Professional Android Developer",
+    cardImage: "assets/images/education-page/meta.png",
+    moocLink: "https://www.coursera.org/professional-certificates/meta-android-developer",
   },
   {
-    title: "Javascript",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-javascript--ud803",
+    title: "Deep Learning with PyTorch",
+    cardImage: "assets/images/education-page/ibm.png",
+    moocLink: "https://www.coursera.org/learn/deep-neural-networks-with-pytorch",
   },
   {
-    title: "Bootstrap 4",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/bootstrap-4-tutorials/",
-  },
-  {
-    title: "Intro to React",
-    cardImage: "assets/images/education-page/edx.svg",
-    moocLink: "https://www.edx.org/learn/reactjs",
-  },
-  {
-    title: "Intro to React Native",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink:
-      "https://www.coursera.org/lecture/react-native/introduction-to-react-native-Eax0D",
-  },
-  {
-    title: "NodeJS, Express and MongoDB",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/learn/server-side-nodejs",
-  },
-  {
-    title: "XML-AJAX",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/xml-from-beginner-to-expert/",
-  },
-  {
-    title: "Data Structures & Algorithms",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink:
-      "https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256",
+    title: "AWS Soluton Architect",
+    cardImage: "assets/images/education-page/aws.png",
+    moocLink: "https://www.coursera.org/professional-certificates/aws-cloud-solutions-architect",
   },
 ];
 
