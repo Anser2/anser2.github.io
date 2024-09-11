@@ -31,7 +31,7 @@ const projects = [
   },
   {
     title: "Churn Prediction for Video Streaming Service",
-    cardImage: "assets/images/project-page/ccp.jpg",
+    cardImage: "assets/images/project-page/cp.jpg",
     description: "Machine learning model to predict customer churn.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/cp.webp",
     Previewlink: "",
