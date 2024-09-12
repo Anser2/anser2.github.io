@@ -2,6 +2,10 @@
 
 const researchTable = document.querySelector(".main");
 
+if (!researchTable) {
+  console.error("Element with class 'main' not found.");
+}
+
 const research = [
   {
     title: "IceWatch: An Early Warning System for Glacier Lake Outburst Flooding (GLOFs), a Deep Learning Approach (//In Progress)",
@@ -20,7 +24,7 @@ const research = [
       "Ice watch is a GLOF(Glacial Lake Outburst Flood) prediction system based on deep learning utilizing satellite imagery data from sentinel 1, sentinel 2 and Landsat. The machine learning model will be trained using datasets containing velocity mosaics, image pair velocities and elevation change over mountain ranges from 1982 till 2022. Convolutional Neural Network(CNN) and LSTM will be combined to develop an efficient flood prediction system that will give an early warning before an incoming GLOF on a user friendly web interface.",
     absbox: "absPopup2",
   },
-  
+
   {
     title: "Vibrational Analysis of Rotating Shaft of DC/Induction Motor",
     authors:
