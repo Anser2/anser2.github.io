@@ -3,14 +3,14 @@ const researchTable = document.querySelector(".main");
 
 const research = [
   {
-    title: "IceWatch: An Early Warning System for Glacier Lake Outburst Flooding (GLOFs), A Deep Learning Approach (//In Progress)",
+    title: "IceWatch: An Early Warning System for Glacier Lake Outburst Flooding (GLOFs), A Deep Learning Approach (In Progress)",
     authors:
       "Anser Sohaib, Muhammad Talha, Zuha Fatima",
     conferences:
       "It is research project and also my final year project (In Progress). Yet to be published.",
-    researchYr: 2024-2025,
+    researchYr: 2025,
     citebox: "popup2",
-    image: "assets/images/research-page/glof.png",
+    image: "assets/images/research-page/in progress.webp",
     citation: {
       vancouver:
         "Nazia Perwaiz, Ayesha Kanwal, Anser Sohaib, Muhammad Talha, Zuha Fatima, 'IceWatch: An Early Warning System for Glacier Lake Outburst Flooding (GLOFs), a Deep Learning Approach', 2024-2025, In Progress.",
@@ -21,7 +21,7 @@ const research = [
   },
 
   {
-    title: "Vibrational Analysis of Rotating Shaft of DC/Induction Motor",
+    title: "Vibrational Analysis of Rotating Shaft of DC/Induction Motor (Not Published)",
     authors:
       "Anser Sohaib, Zuha Fatima, Muhammad Ali",
     conferences:
@@ -31,7 +31,7 @@ const research = [
     image: "assets/images/research-page/rm.png",
     citation: {
       vancouver:
-        "Nazia Perwaiz, Ayesha Kanwal, Anser Sohaib, Muhammad Talha, Zuha Fatima, 'IceWatch: An Early Warning System for Glacier Lake Outburst Flooding (GLOFs), a Deep Learning Approach', 2024-2025, In Progress.",
+        "Nazia Perwaiz, Ayesha Kanwal, Anser Sohaib, Muhammad Ali, Zuha Fatima, 'IceWatch: An Early Warning System for Glacier Lake Outburst Flooding (GLOFs), a Deep Learning Approach', 2024-2025, In Progress.",
     },
     abstract:
       " Fault detection in rotating machinery is critical for preventing production downtimes. This project presents a dataset for unbalance detection in a rotating shaft using vibration sensors. Machine learning algorithms convolutional neural networks and Fast Fourier Network were applied to analyze the dataset. The best results were achieved using a Convolution Neural Network with a prediction accuracy of 97.2% on the evaluation dataset while Fast Fourier Transform gave maximum accuracy of 84 %.",
