@@ -1,14 +1,9 @@
 /*Research Details Table*/
-
 const researchTable = document.querySelector(".main");
-
-if (!researchTable) {
-  console.error("Element with class 'main' not found.");
-}
 
 const research = [
   {
-    title: "IceWatch: An Early Warning System for Glacier Lake Outburst Flooding (GLOFs), a Deep Learning Approach (//In Progress)",
+    title: "IceWatch: An Early Warning System for Glacier Lake Outburst Flooding (GLOFs), A Deep Learning Approach (//In Progress)",
     authors:
       "Anser Sohaib, Muhammad Talha, Zuha Fatima",
     conferences:
@@ -34,6 +29,10 @@ const research = [
     researchYr: 2023,
     citebox: "Read this paper here: https://drive.google.com/file/d/18JJWhO0uYFcBAmh5fut6P8AmUGbaYDJw/view?usp=sharing",
     image: "assets/images/research-page/rm.png",
+    citation: {
+      vancouver:
+        "Nazia Perwaiz, Ayesha Kanwal, Anser Sohaib, Muhammad Talha, Zuha Fatima, 'IceWatch: An Early Warning System for Glacier Lake Outburst Flooding (GLOFs), a Deep Learning Approach', 2024-2025, In Progress.",
+    },
     abstract:
       " Fault detection in rotating machinery is critical for preventing production downtimes. This project presents a dataset for unbalance detection in a rotating shaft using vibration sensors. Machine learning algorithms convolutional neural networks and Fast Fourier Network were applied to analyze the dataset. The best results were achieved using a Convolution Neural Network with a prediction accuracy of 97.2% on the evaluation dataset while Fast Fourier Transform gave maximum accuracy of 84 %.",
     absbox: "absPopup1",
