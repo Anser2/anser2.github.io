@@ -8,14 +8,14 @@ const exp = [
     title: "AI/ML Intern",
     cardImage: "assets/images/experience-page/siemens.png",
     place: "Siemens",
-    time: "(April, 2024 - August 2025)",
+    time: "(April, 2024 - September 2024)",
     desp: "<li>Contributed to developing machine learning models and data-driven solutions, working on optimizing algorithms for predictive maintenance and enhancing the efficiency of AI systems within industrial applications.</li>",
   },
   {
     title: "Data Analytics and Visualization Intern",
     cardImage: "assets/images/experience-page/soc.jpg",
     place: "System On Chip (SoC) Lab, NUST",
-    time: "(Mar - Aug, 2024)",
+    time: "(Mar - September, 2024)",
     desp: "<li>Worked on extracting and reading data for hundreds of patients, analyzing there report and devising and algorithm for possible disease.</li>",
   },
 ];
@@ -55,28 +55,28 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
-    title: "GirlScript Summer Of Code 2020",
+    title: "Boy Summer Of Code 2023",
     cardImage: "assets/images/experience-page/1.jpg",
     description:
-      "Responsible for handling the projects GirlScript App and GirlScript Website Boilerplate.",
+      "Responsible for handling the projects BoyScript App and BoyScript Website Boilerplate.",
   },
   {
-    title: "StudentCode-in 2020",
+    title: "StudentCode-in 2022",
     cardImage: "assets/images/experience-page/2.jpg",
     description:
       "Responsible for handling open source contributions for the project Awesome Developer Portfolio.",
   },
   {
-    title: "PClub Summer Of Code 2020",
+    title: "PClub Summer Of Code 2021",
     cardImage: "assets/images/experience-page/3.jpg",
     description:
-      "Mentoring for the projects Deep Pixel, AutoVaidya, Just Resume and Doc2pen.",
+      "Contributing for the projects Deep Pixel, AutoVaidya, Just Resume and Doc2pen.",
   },
   {
     title: "Hakin-Codes",
     cardImage: "assets/images/experience-page/4.jpg",
     description:
-      "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
+      "Exploration of the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
   },
 ];
 

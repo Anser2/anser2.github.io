@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Agustina";
+  font-family: "Roboto";
   src: url(../fonts/Agustina.woff);
 }
 
@@ -8,7 +8,7 @@
 
 html[data-theme="light"] {
   --bg-mybtn: red;
-  --bg-nav: black;
+  --bg-nav: rgb(0, 0, 0);
   --bg-nav-img: black;
   --bg-footer: #DDE1EC;
   --bg: #ffffff;

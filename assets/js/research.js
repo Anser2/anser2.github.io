@@ -10,7 +10,7 @@ const research = [
       "It is research project and also my final year project (In Progress). Yet to be published.",
     researchYr: 2025,
     citebox: "popup2",
-    image: "assets/images/research-page/in progress.webp",
+    image: "assets/images/research-page/in progress.png",
     citation: {
       vancouver:
         "Nazia Perwaiz, Ayesha Kanwal, Anser Sohaib, Muhammad Talha, Zuha Fatima, 'IceWatch: An Early Warning System for Glacier Lake Outburst Flooding (GLOFs), a Deep Learning Approach', 2024-2025, In Progress.",
