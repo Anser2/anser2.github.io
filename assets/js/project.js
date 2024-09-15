@@ -40,18 +40,18 @@ const projects = [
   {
     title: "Coding a Neural Network form Scratch (No pandas, No tensorflow, Only numpy)",
     cardImage: "assets/images/project-page/nnp.png",
-    description: "Machine learning model to predict customer churn.",
+    description: "Performed basic matrix manipulations and reshaping to implement behind the scenes neural network equations.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/cp.webp",
     Previewlink: "",
-    Githublink: "",
+    Githublink: "https://github.com/Anser2/Neural-Network-Coded-from-Scratch-No-Pandas-No-TensorFlow-Only-Numpy-",
   },
   {
     title: "KNN to find the closest matching celebrity or person to you",
     cardImage: "assets/images/project-page/sml.png",
-    description: "Machine learning model to predict customer churn.",
+    description: "Implmented 1-NN, 3-NN, and 5-NN to get to know that I match closest with Fawad Khan.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/cp.webp",
     Previewlink: "",
-    Githublink: "",
+    Githublink: "https://github.com/Anser2/Machine-Learning-Projects",
   },
   {
     title: "PulseTalk",
