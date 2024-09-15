@@ -38,6 +38,22 @@ const projects = [
     Githublink: "",
   },
   {
+    title: "Coding a Neural Network form Scratch (No pandas, No tensorflow, Only numpy)",
+    cardImage: "assets/images/project-page/nnp.png",
+    description: "Machine learning model to predict customer churn.",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/cp.webp",
+    Previewlink: "",
+    Githublink: "",
+  },
+  {
+    title: "KNN to find the closest matching celebrity or person to you",
+    cardImage: "assets/images/project-page/sml.png",
+    description: "Machine learning model to predict customer churn.",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/cp.webp",
+    Previewlink: "",
+    Githublink: "",
+  },
+  {
     title: "PulseTalk",
     cardImage: "assets/images/project-page/pt.jpg",
     description: "Chat application with advanced features.",
