@@ -3,17 +3,141 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Muhammad Anser Sohaib</title>
+    <title>Anser</title>
     <meta name="author" content="Muhammad Anser Sohaib">
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="icon" href="images/favicon/favicon.ico">
+    <style>
+      .news-section {
+        background: linear-gradient(135deg, #f0f8ff 0%, #e6f3ff 100%);
+        border-radius: 10px;
+        padding: 20px;
+        margin: 20px 0;
+        border-left: 4px solid #4a90e2;
+      }
+      
+      .news-header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+      }
+      
+      .animated-star {
+        font-size: 20px;
+        margin-right: 10px;
+        animation: twinkle 2s infinite;
+        color: #ffd700;
+      }
+      
+      @keyframes twinkle {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50% { opacity: 0.3; transform: scale(1.2); }
+      }
+      
+      .news-title {
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+        margin: 0;
+      }
+      
+      .news-item {
+        margin-bottom: 15px;
+        padding: 12px;
+        background: rgba(255, 255, 255, 0.7);
+        border-radius: 6px;
+        border-left: 3px solid #4a90e2;
+      }
+      
+      .news-date {
+        color: #666;
+        font-size: 14px;
+        font-weight: bold;
+      }
+      
+      .news-content {
+        margin-top: 5px;
+        color: #444;
+        line-height: 1.4;
+      }
+      
+      .publication-item {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 25px;
+        padding: 15px;
+        border-radius: 8px;
+        background: rgba(248, 249, 250, 0.5);
+        border: 1px solid #e9ecef;
+      }
+      
+      .publication-image {
+        width: 120px;
+        height: 80px;
+        background: #f8f9fa;
+        border: 2px dashed #dee2e6;
+        border-radius: 6px;
+        margin-right: 20px;
+        flex-shrink: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #6c757d;
+        font-size: 12px;
+        text-align: center;
+      }
+      
+      .publication-content {
+        flex: 1;
+      }
+      
+      .publication-title {
+        font-weight: bold;
+        margin-bottom: 5px;
+        color: #333;
+      }
+      
+      .publication-authors {
+        color: #666;
+        font-size: 14px;
+        margin-bottom: 5px;
+      }
+      
+      .publication-venue {
+        color: #4a90e2;
+        font-style: italic;
+        font-size: 14px;
+        margin-bottom: 8px;
+      }
+      
+      .publication-links {
+        display: flex;
+        gap: 10px;
+      }
+      
+      .publication-link {
+        padding: 4px 8px;
+        background: #e3f2fd;
+        color: #1565c0;
+        text-decoration: none;
+        border-radius: 4px;
+        font-size: 12px;
+        border: 1px solid #bbdefb;
+        transition: background-color 0.2s;
+      }
+      
+      .publication-link:hover {
+        background: #bbdefb;
+      }
+    </style>
   </head>
   <body>
     <table style="width:100%;max-width:800px;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;"><tbody>
       <tr>
         <td>
+          <!-- Header Section -->
           <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;"><tbody>
-<tr>
+            <tr>
               <td style="padding:2.5%;width:63%;vertical-align:middle">
                 <p class="name" style="text-align:center;">Muhammad Anser Sohaib</p>
                 <p>
@@ -28,27 +152,64 @@
                 <p style="text-align:center">
                   <a href="mailto:ansersohaib.study@gmail.com">Email</a> &nbsp;/&nbsp;
                   <a href="https://linkedin.com/in/ansersohaib">LinkedIn</a> &nbsp;/&nbsp;
-                  <a href="https://drive.google.com/file/d/1M1Yzt0B9wBAc6ndYsyAZBwP6PJ5Y7VeG/view?usp=sharing">CV</a>
-
+                  <a href="https://drive.google.com/file/d/1M1Yzt0B9wBAc6ndYsyAZBwP6PJ5Y7VeG/view?usp=sharing">CV</a> &nbsp;/&nbsp;
+                  <a href="https://github.com/Anser2">Github</a>
                 </p>
               </td>
-              <td style="padding:2.5%;width:50%;max-width:50%">
+              <td style="padding:2.5%;width:37%;max-width:37%;vertical-align:middle">
                 <a href="images/anser_in_mountain.jpg"><img style="width:100%;max-width:100%;object-fit:cover;border-radius:50%;" alt="profile photo" src="images/anser_in_mountain.jpg"></a>
               </td>
             </tr>
           </tbody></table>
 
+          <!-- News Section -->
+          <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;"><tbody>
+            <tr>
+              <td style="padding:16px;width:100%;vertical-align:middle">
+                <div class="news-section">
+                  <div class="news-header">
+                    <span class="animated-star">★</span>
+                    <h2 class="news-title">Latest News</h2>
+                  </div>
+                  
+                  <div class="news-item">
+                    <div class="news-date">August 2025</div>
+                    <div class="news-content">
+                      Started as Associate Software Engineer at Hazen.ai, working on production ML models for surveillance systems.
+                    </div>
+                  </div>
+                  
+                  <div class="news-item">
+                    <div class="news-date">July 2025</div>
+                    <div class="news-content">
+                      Three research papers submitted to top-tier conferences including NeurIPS 2025 and IEEE journals.
+                    </div>
+                  </div>
+                  
+                  <div class="news-item">
+                    <div class="news-date">May 2025</div>
+                    <div class="news-content">
+                      Graduated with BSc Electrical Engineering from NUST with focus on AI and Machine Learning.
+                    </div>
+                  </div>
+                </div>
+              </td>
+            </tr>
+          </tbody></table>
+
+          <!-- About Section -->
           <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;"><tbody>
             <tr>
               <td style="padding:16px;width:100%;vertical-align:middle">
                 <h2>About</h2>
                 <p>
-                  I’m an ML/DL engineer focused on LLMs, intelligent systems, and data-driven solutions. I enjoy building end-to-end pipelines, optimizing models for real-time constraints, and applying AI to real-world problems in research and automation.
+                  I'm an ML/DL engineer focused on LLMs, intelligent systems, and data-driven solutions. I enjoy building end-to-end pipelines, optimizing models for real-time constraints, and applying AI to real-world problems in research and automation.
                 </p>
               </td>
             </tr>
           </tbody></table>
 
+          <!-- Experience Section -->
           <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;"><tbody>
             <tr>
               <td style="padding:16px;width:100%;vertical-align:middle">
@@ -72,63 +233,78 @@
             </tr>
           </tbody></table>
 
+          <!-- Publications Section -->
           <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;"><tbody>
             <tr>
               <td style="padding:16px;width:100%;vertical-align:middle">
                 <h2>Publications</h2>
-                <ul>
-                  <li>M. Anser, M. Talha, Z. Fatima. <em>TITAN: Transformer-Based Intelligent Task Allocation Network for Dual-Phase Learning and Optimal Scheduling</em>. NeurIPS 2025 – Under Review – Abstract.</li>
-                  <li>M. Anser, M. Talha, A. Kanwal, Z. Fatima, S. Sultana, N. Perwaiz. <em>A Multimodal Framework for Glacial Environmental Analysis: Prospects for GLOF Risk Modeling</em>. IEEE HONET-ICT 2025 – Submitted – Abstract.</li>
-                  <li>M. Anser, Z. Fatima, M. Talha, A. Kanwal, N. Perwaiz, S. Sultana. <em>IceWatch: Forecasting Glacial Floods Using AI</em>. IEEE JSTARS – Under Review – Abstract.</li>
-                </ul>
-              </td>
-            </tr>
-          </tbody></table>
-
-          <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;"><tbody>
-            <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
-                <h2>Skills</h2>
-                <p>Python, PyTorch, TensorFlow, NumPy, Pandas, LangChain, C/C++, AWS, CUDA/OpenCL, HPC (MPI), Flask, JavaScript, Node.js, SQL, MongoDB</p>
-              </td>
-            </tr>
-          </tbody></table>
-
-          <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;"><tbody>
-            <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
-                <h2>Certifications</h2>
-                <ul>
-                  <li>Machine Learning Specialization</li>
-                  <li>Generative Adversarial Networks</li>
-                  <li>Finetuning Large Language Models</li>
-                  <li>AWS Solution Architect</li>
-                  <li>Deep Learning Specialization</li>
-                  <li>Deep Neural Networks with PyTorch</li>
-                  <li>Meta Android Developer Specialization</li>
-                </ul>
-              </td>
-            </tr>
-          </tbody></table>
-
-          <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;"><tbody>
-            <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
-                <h2>Education</h2>
-                <p><strong>National University of Sciences & Technology (NUST)</strong> — BSc Electrical Engineering (Nov 2021 – May 2025)</p>
-                <p>Coursework: Machine Learning, Computer Vision, Digital Signal Processing, OOP, Database Systems, Signals and Systems, Microprocessor Systems, Networks, Probability & Statistics, Numerical Methods.</p>
-              </td>
-            </tr>
-          </tbody></table>
-
-          <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;"><tbody>
-            <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
-                <h2>Honors & Awards</h2>
-                <ul>
-                  <li>Merit-Based Scholarship (ECAT).</li>
-                  <li>Ranked 8th citywide in Physics (STARS Academy Lahore).</li>
-                </ul>
+                
+                <div class="publication-item">
+                  <div class="publication-image">
+                    [Image Placeholder]
+                  </div>
+                  <div class="publication-content">
+                    <div class="publication-title">
+                      TITAN: Transformer-Based Intelligent Task Allocation Network for Dual-Phase Learning and Optimal Scheduling
+                    </div>
+                    <div class="publication-authors">
+                      M. Anser, M. Talha, Z. Fatima
+                    </div>
+                    <div class="publication-venue">
+                      NeurIPS 2025 – Under Review
+                    </div>
+                    <div class="publication-links">
+                      <a href="#" class="publication-link">Abstract</a>
+                      <a href="#" class="publication-link">Paper</a>
+                      <a href="#" class="publication-link">Code</a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="publication-item">
+                  <div class="publication-image">
+                    [Image Placeholder]
+                  </div>
+                  <div class="publication-content">
+                    <div class="publication-title">
+                      A Multimodal Framework for Glacial Environmental Analysis: Prospects for GLOF Risk Modeling
+                    </div>
+                    <div class="publication-authors">
+                      M. Anser, M. Talha, A. Kanwal, Z. Fatima, S. Sultana, N. Perwaiz
+                    </div>
+                    <div class="publication-venue">
+                      IEEE HONET-ICT 2025 – Submitted
+                    </div>
+                    <div class="publication-links">
+                      <a href="#" class="publication-link">Abstract</a>
+                      <a href="#" class="publication-link">Paper</a>
+                      <a href="#" class="publication-link">Dataset</a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="publication-item">
+                  <div class="publication-image">
+                    [Image Placeholder]
+                  </div>
+                  <div class="publication-content">
+                    <div class="publication-title">
+                      IceWatch: Forecasting Glacial Floods Using AI
+                    </div>
+                    <div class="publication-authors">
+                      M. Anser, Z. Fatima, M. Talha, A. Kanwal, N. Perwaiz, S. Sultana
+                    </div>
+                    <div class="publication-venue">
+                      IEEE JSTARS – Under Review
+                    </div>
+                    <div class="publication-links">
+                      <a href="#" class="publication-link">Abstract</a>
+                      <a href="#" class="publication-link">Paper</a>
+                      <a href="#" class="publication-link">Demo</a>
+                    </div>
+                  </div>
+                  </div>
+                </div>
               </td>
             </tr>
           </tbody></table>
