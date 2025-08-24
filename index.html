@@ -9,11 +9,11 @@
     <link rel="icon" href="images/favicon/favicon.ico">
     <style>
       .news-section {
-        background: linear-gradient(135deg, #f0f8ff 0%, #e6f3ff 100%);
+        background: linear-gradient(135deg, #fff3e0 0%, #ffe0b3 100%);
         border-radius: 10px;
         padding: 20px;
         margin: 20px 0;
-        border-left: 4px solid #4a90e2;
+        border-left: 4px solid #ff8c00;
       }
       
       .news-header {
@@ -26,7 +26,7 @@
         font-size: 20px;
         margin-right: 10px;
         animation: twinkle 2s infinite;
-        color: #ffd700;
+        color: #ff8c00;
       }
       
       @keyframes twinkle {
@@ -44,9 +44,16 @@
       .news-item {
         margin-bottom: 15px;
         padding: 12px;
-        background: rgba(255, 255, 255, 0.7);
+        background: rgba(255, 255, 255, 0.8);
         border-radius: 6px;
-        border-left: 3px solid #4a90e2;
+        border-left: 3px solid #ff8c00;
+        transition: all 0.3s ease;
+      }
+      
+      .news-item:hover {
+        background: rgba(255, 140, 0, 0.1);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(255, 140, 0, 0.2);
       }
       
       .news-date {
@@ -85,6 +92,14 @@
         color: #6c757d;
         font-size: 12px;
         text-align: center;
+        overflow: hidden;
+      }
+      
+      .publication-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 4px;
       }
       
       .publication-content {
@@ -128,6 +143,36 @@
       
       .publication-link:hover {
         background: #bbdefb;
+      }
+      
+      /* General link hover effects */
+      a:hover {
+        color: #ff8c00;
+        text-decoration: underline;
+        transition: all 0.3s ease;
+      }
+      
+      /* Profile links hover effects */
+      p[style*="text-align:center"] a:hover {
+        background: rgba(255, 140, 0, 0.1);
+        padding: 2px 4px;
+        border-radius: 3px;
+        transform: translateY(-1px);
+      }
+      
+      /* General link hover effects */
+      a:hover {
+        color: #ff8c00;
+        text-decoration: underline;
+        transition: all 0.3s ease;
+      }
+      
+      /* Profile links hover effects */
+      p[style*="text-align:center"] a:hover {
+        background: rgba(255, 140, 0, 0.1);
+        padding: 2px 4px;
+        border-radius: 3px;
+        transform: translateY(-1px);
       }
     </style>
   </head>
@@ -173,7 +218,7 @@
                   </div>
                   
                   <div class="news-item">
-                    <div class="news-date">June 2025</div>
+                    <div class="news-date">August 2025</div>
                     <div class="news-content">
                       Started as Associate Software Engineer at Hazen.ai, working on production ML models for surveillance systems.
                     </div>
@@ -192,42 +237,22 @@
                       Graduated with BSc Electrical Engineering from NUST with focus on AI and Machine Learning.
                     </div>
                   </div>
-
-                  <div class="news-item">
-                    <div class="news-date">April 2025</div>
-                    <div class="news-content">
-                      Presented a Poster for my FYDP at Open House 2025
-                    </div>
-                  </div>
-
-
-                  <div class="news-item">
-                    <div class="news-date">January 2022</div>
-                    <div class="news-content">
-                      Got tuition fee scholarship from NUST.
-                    </div>
-                  </div>
-
-                  <div class="news-item">
-                    <div class="news-date">November 2021</div>
-                    <div class="news-content">
-                      Got admisison offer from NUST.
-                    </div>
-                  </div>
-
-                  <div class="news-item">
-                    <div class="news-date">July 2021</div>
-                    <div class="news-content">
-                      Awarded a scholarship from ECAT.
-                    </div>
-                  </div>
-
-
                 </div>
               </td>
             </tr>
           </tbody></table>
 
+          <!-- About Section -->
+          <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;"><tbody>
+            <tr>
+              <td style="padding:16px;width:100%;vertical-align:middle">
+                <h2>About</h2>
+                <p>
+                  I'm an ML/DL engineer focused on LLMs, intelligent systems, and data-driven solutions. I enjoy building end-to-end pipelines, optimizing models for real-time constraints, and applying AI to real-world problems in research and automation.
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
 
           <!-- Experience Section -->
           <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;"><tbody>
@@ -257,11 +282,11 @@
           <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;"><tbody>
             <tr>
               <td style="padding:16px;width:100%;vertical-align:middle">
-                <h2>Publications/Preprints</h2>
+                <h2>Publications</h2>
                 
                 <div class="publication-item">
                   <div class="publication-image">
-                   <img src="images/TITAN.png" alt="A summary image for the publication titled 'TITAN: Transformer-Based Intelligent Task Allocation Network for Dual-Phase Learning and Optimal Scheduling'">
+                    [Image Placeholder]
                   </div>
                   <div class="publication-content">
                     <div class="publication-title">
@@ -283,7 +308,7 @@
                 
                 <div class="publication-item">
                   <div class="publication-image">
-                   <img src="images/GLOFM.png" alt="Study area for this paper">
+                    [Image Placeholder]
                   </div>
                   <div class="publication-content">
                     <div class="publication-title">
@@ -305,7 +330,7 @@
                 
                 <div class="publication-item">
                   <div class="publication-image">
-                   <img src="images/ICEWATCH.png" alt="A summary image for the publication titled 'IceWatch'">
+                    [Image Placeholder]
                   </div>
                   <div class="publication-content">
                     <div class="publication-title">
