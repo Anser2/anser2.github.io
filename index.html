@@ -5,16 +5,168 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Muhammad Anser Sohaib</title>
     <meta name="author" content="Muhammad Anser Sohaib">
-    <link rel="stylesheet" href="stylesheet.css">
     <link rel="icon" href="images/favicon/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        line-height: 1.7;
+        color: #2c3e50;
+        background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+        min-height: 100vh;
+      }
+      
+      .name {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #1a202c;
+        margin-bottom: 1.5rem;
+        letter-spacing: -0.5px;
+      }
+      
+      h2 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #1a202c;
+        margin-bottom: 1rem;
+        border-bottom: 2px solid #e97547;
+        padding-bottom: 0.5rem;
+        display: inline-block;
+      }
+      
+      p {
+        font-size: 1rem;
+        font-weight: 400;
+        margin-bottom: 1rem;
+        color: #4a5568;
+        text-align: justify;
+      }
+      
+      a {
+        color: #e97547;
+        text-decoration: none;
+        font-weight: 500;
+        transition: all 0.3s ease;
+        border-bottom: 1px solid transparent;
+      }
+      
+      a:hover {
+        color: #d63031;
+        border-bottom: 1px solid #d63031;
+        transform: translateY(-1px);
+      }
+      
+      ul {
+        margin-left: 1.5rem;
+        margin-bottom: 1rem;
+      }
+      
+      li {
+        margin-bottom: 0.5rem;
+        color: #4a5568;
+      }
+      
+      strong {
+        color: #2d3748;
+        font-weight: 600;
+      }
+      
+      em {
+        color: #718096;
+        font-style: italic;
+      }
+      
+      .main-container {
+        width: 100%;
+        max-width: 800px;
+        border: 0;
+        border-spacing: 0;
+        border-collapse: separate;
+        margin: 0 auto;
+        background: rgba(255, 255, 255, 0.7);
+        backdrop-filter: blur(10px);
+        border-radius: 20px;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+      }
+      
+      .section-spacing {
+        padding: 2rem;
+        border-bottom: 1px solid rgba(226, 232, 240, 0.5);
+      }
+      
+      .section-spacing:last-child {
+        border-bottom: none;
+      }
+      
+      .profile-section {
+        padding: 3rem 2rem 2rem 2rem;
+      }
+      
+      .profile-image {
+        width: 100%;
+        max-width: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease;
+      }
+      
+      .profile-image:hover {
+        transform: scale(1.05);
+      }
+      
+      .contact-links {
+        text-align: center;
+        margin-top: 1.5rem;
+      }
+      
+      .contact-links a {
+        font-weight: 500;
+        padding: 0.5rem 1rem;
+        margin: 0 0.25rem;
+        border-radius: 25px;
+        transition: all 0.3s ease;
+        display: inline-block;
+      }
+      
+      .contact-links a:hover {
+        background: rgba(233, 117, 71, 0.1);
+        transform: translateY(-2px);
+        border-bottom: none;
+      }
+      
+      @media (max-width: 768px) {
+        .name {
+          font-size: 2rem;
+        }
+        
+        .main-container {
+          margin: 1rem;
+          border-radius: 15px;
+        }
+        
+        .profile-section,
+        .section-spacing {
+          padding: 1.5rem;
+        }
+      }
+    </style>
   </head>
   <body>
-    <table style="width:100%;max-width:800px;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;"><tbody>
+    <table class="main-container"><tbody>
       <tr>
         <td>
           <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;"><tbody>
-<tr>
-              <td style="padding:2.5%;width:63%;vertical-align:middle">
+            <tr>
+              <td style="padding:2.5%;width:63%;vertical-align:middle" class="profile-section">
                 <p class="name" style="text-align:center;">Muhammad Anser Sohaib</p>
                 <p>
                   Hi, I'm Anser! I'm a Software Engineer at <a href="https://hazen.ai">Hazen.ai</a> developing production ML models deployed across highway and community surveillance systems internationally. My research focuses on efficient AI systems, particularly quantization techniques for edge deployment and intelligent resource optimization.
@@ -25,24 +177,24 @@
                 <p>
                   Outside research, I'm drawn to nature's intricate systems—finding parallels between natural resilience and the robust AI systems I strive to build.
                 </p>
-                <p style="text-align:center">
+                <div class="contact-links">
                   <a href="mailto:ansersohaib.study@gmail.com">Email</a> &nbsp;/&nbsp;
                   <a href="https://linkedin.com/in/ansersohaib">LinkedIn</a> &nbsp;/&nbsp;
                   <a href="https://github.com/Anser2">GitHub</a>
-                </p>
+                </div>
               </td>
               <td style="padding:2.5%;width:50%;max-width:50%">
-                <a href="images/anser_in_mountain.jpg"><img style="width:100%;max-width:100%;object-fit:cover;border-radius:50%;" alt="profile photo" src="images/anser_in_mountain.jpg"></a>
+                <a href="images/anser_in_mountain.jpg"><img class="profile-image" alt="profile photo" src="images/anser_in_mountain.jpg"></a>
               </td>
             </tr>
           </tbody></table>
 
           <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;"><tbody>
             <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
+              <td class="section-spacing">
                 <h2>About</h2>
                 <p>
-                  I’m an ML/DL engineer focused on LLMs, intelligent systems, and data-driven solutions. I enjoy building end-to-end pipelines, optimizing models for real-time constraints, and applying AI to real-world problems in research and automation.
+                  I'm an ML/DL engineer focused on LLMs, intelligent systems, and data-driven solutions. I enjoy building end-to-end pipelines, optimizing models for real-time constraints, and applying AI to real-world problems in research and automation.
                 </p>
               </td>
             </tr>
@@ -50,7 +202,7 @@
 
           <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;"><tbody>
             <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
+              <td class="section-spacing">
                 <h2>Experience</h2>
                 <p><strong>Associate Software Engineer</strong>, Hazen.ai — <em>Jun 2025 – Present</em></p>
                 <ul>
@@ -73,7 +225,7 @@
 
           <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;"><tbody>
             <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
+              <td class="section-spacing">
                 <h2>Publications</h2>
                 <ul>
                   <li>M. Anser, M. Talha, Z. Fatima. <em>TITAN: Transformer-Based Intelligent Task Allocation Network for Dual-Phase Learning and Optimal Scheduling</em>. NeurIPS 2025 – Under Review – Abstract.</li>
@@ -86,7 +238,7 @@
 
           <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;"><tbody>
             <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
+              <td class="section-spacing">
                 <h2>Skills</h2>
                 <p>Python, PyTorch, TensorFlow, NumPy, Pandas, LangChain, C/C++, AWS, CUDA/OpenCL, HPC (MPI), Flask, JavaScript, Node.js, SQL, MongoDB</p>
               </td>
@@ -95,7 +247,7 @@
 
           <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;"><tbody>
             <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
+              <td class="section-spacing">
                 <h2>Certifications</h2>
                 <ul>
                   <li>Machine Learning Specialization</li>
@@ -112,7 +264,7 @@
 
           <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;"><tbody>
             <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
+              <td class="section-spacing">
                 <h2>Education</h2>
                 <p><strong>National University of Sciences & Technology (NUST)</strong> — BSc Electrical Engineering (Nov 2021 – May 2025)</p>
                 <p>Coursework: Machine Learning, Computer Vision, Digital Signal Processing, OOP, Database Systems, Signals and Systems, Microprocessor Systems, Networks, Probability & Statistics, Numerical Methods.</p>
@@ -122,7 +274,7 @@
 
           <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;"><tbody>
             <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
+              <td class="section-spacing">
                 <h2>Honors & Awards</h2>
                 <ul>
                   <li>Merit-Based Scholarship (ECAT).</li>
@@ -131,8 +283,6 @@
               </td>
             </tr>
           </tbody></table>
-
-          <br><br>
         </td>
       </tr>
     </tbody></table>
